@@ -60,6 +60,17 @@ GET /tomorrow?now=2024-02-14T12:00:00
 pytest tests/
 ```
 
+## Guide for Frontend Developers to Use Weather Forecast API
+
+Frontend developers can display weather forecast data to users by making HTTP requests to the API using JavaScript. No Python knowledge is required to work with the API.
+
+---
+
+### Accessing the API Endpoints
+
+The API provides two main endpoints:
+- **`/forecasts`**: Retrieves weather forecast data for a specified date.
+- **`/tomorrow`**: Provides a prediction for tomorrow’s weather conditions.
 ## TODOs
 - Add input validation for datetime formats
 - Implement caching for frequent requests
