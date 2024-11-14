@@ -1,0 +1,7 @@
+fastapi>=0.109
+uvicorn>=0.27
+pandas>=2.2
+python-dateutil>=2.8
+pytest>=7.4
+httpx>=0.26
+numpy>=1.26
